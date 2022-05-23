@@ -1,5 +1,4 @@
-var fs = require('fs');
- 
+var fs = require('fs')
 var stream = new fs.ReadStream("01-read-file/text.txt");
 
 stream.on('readable', function(){
